@@ -61,7 +61,7 @@ Other Experience
 
 ----
 
-> <vxgmichel@gmail.com> • +33 (7)81 242 662 • 25 years old\
+> <vxgmichel@gmail.com> • +33 (0)7 81 24 26 62 • 25 years old\
 > GitHub: [vxgmichel][9] • StackOverflow: [Vincent][10]\
 > Hövdingavägen 37 - 22475 Lund, Sweden
 
