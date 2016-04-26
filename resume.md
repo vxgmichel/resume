@@ -3,7 +3,7 @@ Vincent Michel
 
 ----
 
->  Software engineer, Python enthoutiast and Free Software promoter
+>  Software engineer, Python enthusiast and Free Software promoter
 
 ----
 
@@ -49,7 +49,7 @@ Professional Experience
 Other Experience
 ----------------
 
-**Asynchronous programing and asyncio**
+**Asynchronous programming and asyncio**
 
   * [Pull request][5] to add [run_coroutine_threadsafe][6], merged in **asyncio** and **cpython**
   * Asyncio-based library for asynchronous console and interfaces: [apython][7]
@@ -57,7 +57,7 @@ Other Experience
 **Competitive programming and mathematics**
 
   * About 140 problems solved on [ProjectEuler.net][8]
-  * Attented 2 **Google Code Jams**
+  * Attended 2 **Google Code Jams**
 
 ----
 

@@ -13,6 +13,7 @@ resume.html: style_chmduquesne.css resume.md
 	pandoc --standalone -H style_chmduquesne.css \
         --from markdown --to html \
         -o resume.html resume.md
+	cp resume.html index.html
 
 docx: resume.docx
 resume.docx: resume.md
