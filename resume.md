@@ -26,7 +26,7 @@ Professional Experience
 2014-2016
 :   **Software engineer at MAX-IV Synchrotron** – Lund (Sweden)
 
-    * Control system software for particle accelerator
+    * Control system software for particle accelerator:
 
         * **Python** libraries for many kinds of hardware
         * Control system software, based on **Python** and [Tango][1]
