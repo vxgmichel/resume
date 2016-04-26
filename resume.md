@@ -11,7 +11,7 @@ Education
 ---------
 
 2008-2012
-:   **Computer engineering** – Institut National des Sciences appliqués – Rennes (France)
+:   **Computer engineering** – Institut National des Sciences appliquées – Rennes (France)
 
     *Engineer's degree (master/bachelor equivalent)*
 
@@ -63,7 +63,7 @@ Other Experience
 
 > <vxgmichel@gmail.com> • +33 (7)81 242 662 • 25 years old\
 > GitHub: [vxgmichel][9] • StackOverflow: [Vincent][10]\
-> Hövdingavägen 31 - 22475 Lund, Sweden
+> Hövdingavägen 37 - 22475 Lund, Sweden
 
 
 [1]: http://www.tango-controls.org/
