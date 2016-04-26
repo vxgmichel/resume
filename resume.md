@@ -11,7 +11,7 @@ Education
 ---------
 
 2008-2012
-:   **Computer engineering** – Institut National des Sciences appliquées – Rennes (France)
+:   **Computer engineering** – Institut National des Sciences Appliquées – Rennes (France)
 
     *Engineer's degree (master/bachelor equivalent)*
 
