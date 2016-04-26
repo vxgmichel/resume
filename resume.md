@@ -11,12 +11,12 @@ Education
 ---------
 
 2008-2012
-:   **Computer engineering**; Institut National des Sciences appliqués – Rennes (France)
+:   **Computer engineering** – Institut National des Sciences appliqués – Rennes (France)
 
     *Engineer's degree (master/bachelor equivalent)*
 
 2012-2013
-:   **Computer Science**; Rochester Institute of Technology - NY (USA)
+:   **Computer Science** – Rochester Institute of Technology – NY (USA)
 
     *Exchange program during 2 quarters*
 
@@ -24,7 +24,7 @@ Professional Experience
 ----------------------
 
 2014-2016
-:   **Software engineer at MAX-IV Synchrotron**; Lund (Sweden)
+:   **Software engineer at MAX-IV Synchrotron** – Lund (Sweden)
 
     * Control system software for particle accelerator
 
