@@ -1,9 +1,9 @@
-Vincent Michel
-==============
+Vincent X. Michel
+=================
 
 ----
 
->  Software engineer, Python enthusiast and Free Software promoter
+>  Software engineer, Python enthusiast and Free Software supporter
 
 ----
 
@@ -36,7 +36,7 @@ Professional Experience
 
         * Iterative and incremental development: **Agile/Scrum**
         * Direct interaction with machine operators and scientists
-        * Unit tests and development of [test utilities][2]
+        * Unit testing and development of [test utilities][2]
         * Automated packaging and deployment with **Jenkins** and **ansible**
 		* Focus on GNU/Linux based distributions: **CentOS**, **Debian**
 
@@ -61,9 +61,9 @@ Other Experience
 
 ----
 
-> <vxgmichel@gmail.com> • +33 (0)7 81 24 26 62 • 25 years old\
+> <vxgmichel@gmail.com> • French\
 > GitHub: [vxgmichel][9] • StackOverflow: [Vincent][10]\
-> Hövdingavägen 37 - 22475 Lund, Sweden
+> +33 (0)7 81 24 26 62 • Hövdingavägen 37 - 22475 Lund, Sweden
 
 
 [1]: http://www.tango-controls.org/
