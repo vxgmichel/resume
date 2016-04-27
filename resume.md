@@ -29,7 +29,7 @@ Professional Experience
     * Control system software for particle accelerator:
 
         * **Python** libraries for many kinds of hardware
-        * Control system software, based on **Python** and [Tango][1]
+        * Control system software, based on **Python** and [**Tango**][1]
         * User interfaces (**PyQt** and command line)
 
     * Software production methods:
@@ -40,10 +40,10 @@ Professional Experience
         * Automated packaging and deployment with **Jenkins**, **Docker** and **Ansible**
         * Focus on GNU/Linux based distributions: **CentOS**, **Debian**
 
-    * Open-source [Tango][1] community:
+    * Open-source [**Tango**][1] community:
 
         * Bug reports and forum support for new comers
-        * Maintaining of the [PyTango][3] library (~ 3000 downloads/month)
+        * Maintaining of the [**PyTango**][3] library (~ 3000 downloads/month)
         * Publishing of [generic tools][4] for the community
 
 Other Experience
@@ -51,12 +51,12 @@ Other Experience
 
 **Asynchronous programming and asyncio**
 
-  * [Pull request][5] to add [run_coroutine_threadsafe][6], merged in **asyncio** and **cpython**
-  * Asyncio-based library for asynchronous console and interfaces: [apython][7]
+  * [Pull request][5] to add [*run_coroutine_threadsafe*][6], merged in **asyncio** and **cpython**
+  * Asyncio-based library for asynchronous console and interfaces: [**apython**][7]
 
 **Competitive programming and mathematics**
 
-  * About 140 problems solved on [ProjectEuler.net][8]
+  * About 140 problems solved on [**ProjectEuler.net**][8]
   * Attended 2 **Google Code Jams**
 
 ----
