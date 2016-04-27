@@ -36,9 +36,9 @@ Professional Experience
 
         * Iterative and incremental development: **Agile/Scrum**
         * Direct interaction with machine operators and scientists
-        * Unit testing and development of [test utilities][2]
-        * Automated packaging and deployment with **Jenkins** and **ansible**
-		* Focus on GNU/Linux based distributions: **CentOS**, **Debian**
+        * Unit testing (**nose**, **pytest**) and development of [test utilities][2]
+        * Automated packaging and deployment with **Jenkins**, **Docker** and **Ansible**
+        * Focus on GNU/Linux based distributions: **CentOS**, **Debian**
 
     * Open-source [Tango][1] community:
 
