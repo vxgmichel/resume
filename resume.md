@@ -43,7 +43,7 @@ Professional Experience
     * Open-source [**Tango**][1] community:
 
         * Bug reports and forum support for new comers
-        * Maintaining of the [**PyTango**][3] library (~ 3000 downloads/month)
+        * Maintaining of the [**PyTango**][3] library (~ 300 downloads/month)
         * Publishing of [generic tools][4] for the community
 
 Other Experience
@@ -52,17 +52,17 @@ Other Experience
 **Asynchronous programming and asyncio**
 
   * [Pull request][5] to add [*run_coroutine_threadsafe*][6], merged in **asyncio** and **cpython**
-  * Asyncio-based library for asynchronous console and interfaces: [**apython**][7]
+  * Asyncio-based libraries: [**aioconsole**][7] and [**aiostream**][8]
 
 **Competitive programming and mathematics**
 
-  * About 140 problems solved on [**ProjectEuler.net**][8]
-  * Attended 2 **Google Code Jams**
+  * About 150 problems solved on [**ProjectEuler.net**][9]
+  * Attended 2 [**Google Code Jams**][10]
 
 ----
 
 > <vxgmichel@gmail.com> • French\
-> GitHub: [vxgmichel][9] • StackOverflow: [Vincent][10]\
+> GitHub: [vxgmichel][11] • StackOverflow: [Vincent][12]\
 > +33 (0)7 81 24 26 62 • Hövdingavägen 37 - 22475 Lund, Sweden
 
 
@@ -72,7 +72,9 @@ Other Experience
 [4]: https://github.com/vxgmichel/tango-gateway
 [5]: https://github.com/python/asyncio/pull/273
 [6]: https://docs.python.org/3/library/asyncio-task.html#asyncio.run_coroutine_threadsafe
-[7]: https://github.com/vxgmichel/apython
-[8]: https://projecteuler.net
-[9]: https://github.com/vxgmichel/
-[10]: http://stackoverflow.com/users/2846140/vincent
+[7]: https://github.com/vxgmichel/aioconsole
+[8]: https://github.com/vxgmichel/aiostream
+[9]: https://projecteuler.net
+[10]: https://code.google.com/codejam/
+[11]: https://github.com/vxgmichel/
+[12]: http://stackoverflow.com/users/2846140/vincent
