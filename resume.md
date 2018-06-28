@@ -10,23 +10,27 @@ Vincent X. Michel
 Education
 ---------
 
-2008-2012
+2008 - 2012
 :   **Computer engineering** – Institut National des Sciences Appliquées – Rennes (France)
 
     *Engineer's degree (master/bachelor equivalent)*
 
-2012-2013
+2012 - 2013
 :   **Computer Science** – Rochester Institute of Technology – NY (USA)
 
     *Exchange program during 2 quarters*
 
+
 Professional Experience
 ----------------------
 
-2014-2016
+2014 - 2017
 :   **Software engineer at MAX-IV Synchrotron** – Lund (Sweden)
 
-    * Control system software for particle accelerator:
+2017 - present
+:   **Software engineer at European Synchrotron Radiation Facility** – Grenoble (France)
+
+    * Control system software for particle accelerators:
 
         * **Python** libraries for many kinds of hardware
         * Control system software, based on **Python** and [**Tango**][1]
@@ -37,7 +41,7 @@ Professional Experience
         * Iterative and incremental development: **Agile/Scrum**
         * Direct interaction with machine operators and scientists
         * Unit testing (**nose**, **pytest**) and development of [test utilities][2]
-        * Automated packaging and deployment with **Jenkins**, **Docker** and **Ansible**
+        * Automated packaging and deployment with **Conda**, **Docker** and **Ansible**
         * Focus on GNU/Linux based distributions: **CentOS**, **Debian**
 
     * Open-source [**Tango**][1] community:
@@ -52,18 +56,17 @@ Other Experience
 **Asynchronous programming and asyncio**
 
   * [Pull request][5] to add [*run_coroutine_threadsafe*][6], merged in **asyncio** and **cpython**
-  * Asyncio-based libraries: [**aioconsole**][7] and [**aiostream**][8]
+  * Maintaining two asyncio-based libraries: [**aioconsole**][7] and [**aiostream**][8]
 
 **Competitive programming and mathematics**
 
   * About 150 problems solved on [**ProjectEuler.net**][9]
-  * Attended 2 [**Google Code Jams**][10]
+  * Attended 3 [**Google Code Jams**][10]
 
 ----
 
 > <vxgmichel@gmail.com> • French\
-> GitHub: [vxgmichel][11] • StackOverflow: [Vincent][12]\
-> +33 (0)7 81 24 26 62 • Hövdingavägen 37 - 22475 Lund, Sweden
+> GitHub: [vxgmichel][11] • StackOverflow: [Vincent][12]
 
 
 [1]: http://www.tango-controls.org/
