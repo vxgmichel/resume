@@ -26,6 +26,7 @@ html: init
 			--output $(OUT_DIR)/$$FILE_NAME.html $$f \
 			--metadata pagetitle=$$FILE_NAME;\
 	done
+	cp $(OUT_DIR)/resume.html index.html
 
 docx: init
 	for f in $(IN_DIR)/*.md; do \
