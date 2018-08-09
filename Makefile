@@ -26,6 +26,7 @@ html: init
 			--from markdown --to html \
 			--output $(OUT_DIR)/$$FILE_NAME.html $$f; \
 	done
+	cp $(OUT_DIR)/resume.html index.html
 
 docx: init
 	for f in $(IN_DIR)/*.md; do \
