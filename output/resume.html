@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>resume</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <style type="text/css">
+  /*
+   * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+   *
+   * CSS for making a resume with pandoc. Inspired by moderncv.
+   *
+   * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+   * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+   */
+  
+  /* Whole document */
+  body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      max-width: 800px;
+      margin: auto;
+      background: #FFFFFF;
+      padding: 10px 10px 10px 10px;
+  }
+  
+  /* Title of the resume */
+  h1 {
+      font-size: 55px;
+      color: #757575;
+      text-align:center;
+      margin-bottom:15px;
+  }
+  h1:hover {
+      background-color: #757575;
+      color: #FFFFFF;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Titles of categories */
+  h2 {
+      /* This is called "sectioncolor" in the ConTeXt stylesheet. */
+      color: #397249;
+  }
+  /* There is a bar just before each category */
+  h2:before {
+      content: "";
+      display: inline-block;
+      margin-right:1%;
+      width: 16%;
+      height: 10px;
+      /* This is called "rulecolor" in the ConTeXt stylesheet. */
+      background-color: #9CB770;
+  }
+  h2:hover {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Definitions */
+  dt {
+      float: left;
+      clear: left;
+      width: 17%;
+      /*font-weight: bold;*/
+  }
+  dd {
+      margin-left: 17%;
+  }
+  p {
+      margin-top:0;
+      margin-bottom:7px;
+  }
+  
+  /* Blockquotes */
+  blockquote {
+      text-align: center
+  }
+  
+  /* Links */
+  a {
+      text-decoration: none;
+      color: #397249;
+  }
+  a:hover, a:active {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-decoration: none;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Horizontal separators */
+  hr {
+      color: #A6A6A6;
+  }
+  
+  table {
+      width: 100%;
+  }
+  </style>
+</head>
+<body>
+<h1 id="vincent-x.-michel">Vincent X. Michel</h1>
+<hr />
+<blockquote>
+<p>Software engineer, Python enthusiast and Free Software supporter</p>
+</blockquote>
+<hr />
+<h2 id="education">Education</h2>
+<dl>
+<dt>2008 - 2012</dt>
+<dd><p><strong>Computer engineering</strong> – Institut National des Sciences Appliquées – Rennes (France)</p>
+<p><em>Engineer’s degree (master/bachelor equivalent)</em></p>
+</dd>
+<dt>2012 - 2013</dt>
+<dd><p><strong>Computer Science</strong> – Rochester Institute of Technology – NY (USA)</p>
+<p><em>Exchange program during 2 quarters</em></p>
+</dd>
+</dl>
+<h2 id="professional-experience">Professional Experience</h2>
+<dl>
+<dt>2014 - 2017</dt>
+<dd><strong>Software engineer at MAX-IV Synchrotron</strong> – Lund (Sweden)
+</dd>
+<dt>2017 - present</dt>
+<dd><p><strong>Software engineer at European Synchrotron Radiation Facility</strong> – Grenoble (France)</p>
+<ul>
+<li><p>Control system software for particle accelerators:</p>
+<ul>
+<li><strong>Python</strong> libraries for many kinds of hardware</li>
+<li>Control system software, based on <strong>Python</strong> and <a href="http://www.tango-controls.org/" target="_blank"><strong>Tango</strong></a></li>
+<li>User interfaces (<strong>PyQt</strong> and command line)</li>
+</ul></li>
+<li><p>Software production methods:</p>
+<ul>
+<li>Iterative and incremental development: <strong>Agile/Scrum</strong></li>
+<li>Direct interaction with machine operators and scientists</li>
+<li>Unit testing (<strong>nose</strong>, <strong>pytest</strong>) and development of <a href="https://github.com/vxgmichel/pytango-devicetest" target="_blank">test utilities</a></li>
+<li>Automated packaging and deployment with <strong>Conda</strong>, <strong>Docker</strong> and <strong>Ansible</strong></li>
+<li>Focus on GNU/Linux based distributions: <strong>CentOS</strong>, <strong>Debian</strong></li>
+</ul></li>
+<li><p>Open-source <a href="http://www.tango-controls.org/" target="_blank"><strong>Tango</strong></a> community:</p>
+<ul>
+<li>Bug reports and forum support for new comers</li>
+<li>Maintaining of the <a href="https://github.com/tango-cs/PyTango" target="_blank"><strong>PyTango</strong></a> library (~ 300 downloads/month)</li>
+<li>Publishing of <a href="https://github.com/vxgmichel/tango-gateway" target="_blank">generic tools</a> for the community</li>
+</ul></li>
+</ul>
+</dd>
+</dl>
+<h2 id="other-experience">Other Experience</h2>
+<p><strong>Asynchronous programming and asyncio</strong></p>
+<ul>
+<li><a href="https://github.com/python/asyncio/pull/273" target="_blank">Pull request</a> to add <a href="https://docs.python.org/3/library/asyncio-task.html#asyncio.run_coroutine_threadsafe" target="_blank"><em>run_coroutine_threadsafe</em></a>, merged in <strong>asyncio</strong> and <strong>cpython</strong></li>
+<li>Maintaining two asyncio-based libraries: <a href="https://github.com/vxgmichel/aioconsole" target="_blank"><strong>aioconsole</strong></a> and <a href="https://github.com/vxgmichel/aiostream" target="_blank"><strong>aiostream</strong></a></li>
+</ul>
+<p><strong>Competitive programming and mathematics</strong></p>
+<ul>
+<li>About 150 problems solved on <a href="https://projecteuler.net" target="_blank"><strong>ProjectEuler.net</strong></a></li>
+<li>Attended 3 <a href="https://code.google.com/codejam/" target="_blank"><strong>Google Code Jams</strong></a></li>
+</ul>
+<hr />
+<blockquote>
+<p><a href="mailto:vxgmichel@gmail.com">vxgmichel@gmail.com</a> • French<br />
+GitHub: <a href="https://github.com/vxgmichel/" target="_blank">vxgmichel</a> • StackOverflow: <a href="http://stackoverflow.com/users/2846140/vincent" target="_blank">Vincent</a></p>
+</blockquote>
+</body>
+</html>
