@@ -1,100 +1,83 @@
-Johnny Coder
-============
+Vincent X. Michel
+=================
 
 ----
 
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
+>  Software engineer, Python enthusiast and Free Software supporter
 
 ----
 
 Education
 ---------
 
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
+2008 - 2012
+:   **Computer engineering** – Institut National des Sciences Appliquées – Rennes (France)
 
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
+    *Engineer's degree (master/bachelor equivalent)*
 
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
+2012 - 2013
+:   **Computer Science** – Rochester Institute of Technology – NY (USA)
 
-    *Minor: Awesomeology*
+    *Exchange program during 2 quarters*
 
-Experience
-----------
 
-**Your Most Recent Work Experience:**
+Professional Experience
+----------------------
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+2014 - 2017
+:   **Software engineer at MAX-IV Synchrotron** – Lund (Sweden)
 
-* First item
+2017 - present
+:   **Software engineer at European Synchrotron Radiation Facility** – Grenoble (France)
 
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
+    * Control system software for particle accelerators:
 
-**That Other Job You Had**
+        * **Python** libraries for many kinds of hardware
+        * Control system software, based on **Python** and [**Tango**][1]
+        * User interfaces (**PyQt** and command line)
 
-Also with a short description.
+    * Software production methods:
 
-Technical Experience
---------------------
+        * Iterative and incremental development: **Agile/Scrum**
+        * Direct interaction with machine operators and scientists
+        * Unit testing (**nose**, **pytest**) and development of [test utilities][2]
+        * Automated packaging and deployment with **Conda**, **Docker** and **Ansible**
+        * Focus on GNU/Linux based distributions: **CentOS**, **Debian**
 
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
+    * Open-source [**Tango**][1] community:
 
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
+        * Bug reports and forum support for new comers
+        * Maintaining of the [**PyTango**][3] library (~ 300 downloads/month)
+        * Publishing of [generic tools][4] for the community
 
-Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
+Other Experience
+----------------
 
-Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
+**Asynchronous programming and asyncio**
 
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
+  * [Pull request][5] to add [*run_coroutine_threadsafe*][6], merged in **asyncio** and **cpython**
+  * Maintaining two asyncio-based libraries: [**aioconsole**][7] and [**aiostream**][8]
 
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
+**Competitive programming and mathematics**
 
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
-
-[ref]: https://github.com/githubuser/superlongprojectname
-
-Extra Section, Call it Whatever You Want
-----------------------------------------
-
-* Human Languages:
-
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
-
-* Random tidbit
-
-* Other sort of impressive-sounding thing you did
+  * About 150 problems solved on [**ProjectEuler.net**][9]
+  * Attended 3 [**Google Code Jams**][10]
 
 ----
 
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry
+> <vxgmichel@gmail.com> • French\
+> GitHub: [vxgmichel][11] • StackOverflow: [Vincent][12]
+
+
+[1]: http://www.tango-controls.org/
+[2]: https://github.com/vxgmichel/pytango-devicetest
+[3]: https://github.com/tango-cs/PyTango
+[4]: https://github.com/vxgmichel/tango-gateway
+[5]: https://github.com/python/asyncio/pull/273
+[6]: https://docs.python.org/3/library/asyncio-task.html#asyncio.run_coroutine_threadsafe
+[7]: https://github.com/vxgmichel/aioconsole
+[8]: https://github.com/vxgmichel/aiostream
+[9]: https://projecteuler.net
+[10]: https://code.google.com/codejam/
+[11]: https://github.com/vxgmichel/
+[12]: http://stackoverflow.com/users/2846140/vincent
