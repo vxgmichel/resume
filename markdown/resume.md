@@ -1,5 +1,5 @@
-Vincent X. Michel
-=================
+Vincent Michel
+==============
 
 ----
 
