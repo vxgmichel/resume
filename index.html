@@ -5,11 +5,13 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>Vincent Michel - Resume</title>
-  <style type="text/css">
-      code{white-space: pre-wrap;}
-      span.smallcaps{font-variant: small-caps;}
-      span.underline{text-decoration: underline;}
-      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
   </style>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
@@ -40,11 +42,11 @@
       text-align:center;
       margin-bottom:15px;
   }
-  h1:hover {
-      background-color: #757575;
-      color: #FFFFFF;
-      text-shadow: 1px 1px 1px #333;
-  }
+  /* h1:hover { */
+  /*     background-color: #757575; */
+  /*     color: #FFFFFF; */
+  /*     text-shadow: 1px 1px 1px #333; */
+  /* } */
 
   /* Titles of categories */
   h2 {
@@ -61,21 +63,22 @@
       /* This is called "rulecolor" in the ConTeXt stylesheet. */
       background-color: #9CB770;
   }
-  h2:hover {
-      background-color: #397249;
-      color: #FFFFFF;
-      text-shadow: 1px 1px 1px #333;
-  }
+  /* h2:hover { */
+  /*     background-color: #397249; */
+  /*     color: #FFFFFF; */
+  /*     text-shadow: 1px 1px 1px #333; */
+  /* } */
 
   /* Definitions */
   dt {
       float: left;
       clear: left;
       width: 17%;
-      /*font-weight: bold;*/
+      font-weight: bold;
   }
   dd {
       margin-left: 17%;
+      margin-bottom:7px;
   }
   p {
       margin-top:0;
@@ -113,7 +116,7 @@
 <h1 id="vincent-michel">Vincent Michel</h1>
 <hr />
 <blockquote>
-<p>Software engineer, Python enthusiast and Free Software supporter</p>
+<p>Software engineer, Python enthusiast and Free Software maintainer</p>
 </blockquote>
 <hr />
 <h2 id="education">Education</h2>
@@ -125,6 +128,7 @@
 <dt>2012 - 2013</dt>
 <dd><p><strong>Computer Science</strong> – Rochester Institute of Technology – NY (USA)</p>
 <p><em>Exchange program during 2 quarters</em></p>
+<p><br/></p>
 </dd>
 </dl>
 <h2 id="professional-experience">Professional Experience</h2>
@@ -132,46 +136,57 @@
 <dt>2014 - 2017</dt>
 <dd><strong>Software engineer at MAX-IV Synchrotron</strong> – Lund (Sweden)
 </dd>
-<dt>2017 - present</dt>
+<dt>2017 - 2019</dt>
 <dd><p><strong>Software engineer at European Synchrotron Radiation Facility</strong> – Grenoble (France)</p>
-<ul>
-<li><p>Control system software for particle accelerators:</p>
+<p>Control system software for particle accelerators:</p>
 <ul>
 <li><strong>Python</strong> libraries for many kinds of hardware</li>
-<li>Control system software, based on <strong>Python</strong> and <a href="http://www.tango-controls.org/" target="_blank"><strong>Tango</strong></a></li>
 <li>User interfaces (<strong>PyQt</strong> and command line)</li>
-</ul></li>
-<li><p>Software production methods:</p>
+</ul>
+<p><br/> Software production methods and iterative development:</p>
 <ul>
-<li>Iterative and incremental development: <strong>Agile/Scrum</strong></li>
 <li>Direct interaction with machine operators and scientists</li>
-<li>Unit testing (<strong>nose</strong>, <strong>pytest</strong>) and development of <a href="https://github.com/vxgmichel/pytango-devicetest" target="_blank">test utilities</a></li>
+<li>Unit testing (<strong>pytest</strong>) and development of <a href="https://github.com/vxgmichel/pytango-devicetest" target="_blank">test utilities</a></li>
 <li>Automated packaging and deployment with <strong>Conda</strong>, <strong>Docker</strong> and <strong>Ansible</strong></li>
-<li>Focus on GNU/Linux based distributions: <strong>CentOS</strong>, <strong>Debian</strong></li>
-</ul></li>
-<li><p>Open-source <a href="http://www.tango-controls.org/" target="_blank"><strong>Tango</strong></a> community:</p>
+</ul>
+<p><br/> Open-source <a href="http://www.tango-controls.org/" target="_blank"><strong>Tango</strong></a> community:</p>
 <ul>
 <li>Bug reports and forum support for new comers</li>
-<li>Maintaining of the <a href="https://github.com/tango-cs/PyTango" target="_blank"><strong>PyTango</strong></a> library (~ 300 downloads/month)</li>
-<li>Publishing of <a href="https://github.com/vxgmichel/tango-gateway" target="_blank">generic tools</a> for the community</li>
-</ul></li>
+<li>Maintaining of the <a href="https://github.com/tango-cs/PyTango" target="_blank"><strong>PyTango</strong></a> library and other <a href="https://github.com/vxgmichel/tango-gateway" target="_blank">generic tools</a></li>
 </ul>
+<p><br/></p>
+</dd>
+<dt>2019 - 2025</dt>
+<dd><p><strong>Software engineer at SCILLE</strong> – Remote work (France)</p>
+<p>Core developer for <a href="https://parsec.cloud/" target="_blank"><strong>Parsec</strong></a>, a collaborative file-sharing application with end-to-end encryption</p>
+<ul>
+<li><strong>Python</strong> backend developement for the parsec server using <a href="https://www.starlette.io/" target="_blank"><strong>Starlette</strong></a> and <a href="https://fastapi.tiangolo.com/" target="_blank"><strong>FastAPI</strong></a></li>
+<li><strong>Rust</strong> development of a certificate-based trust chain, using <strong>cryptographic primitives</strong></li>
+<li>Implementation of a dedicated file system using <a href="https://fastapi.tiangolo.com/" target="_blank"><strong>FUSE</strong></a> and <a href="https://www.kernel.org/doc/html/latest/filesystems/fuse.html" target="_blank"><strong>WinFSP</strong></a></li>
+<li>All contributions publicly available in the <a href="https://github.com/Scille/parsec-cloud" target="_blank">project repository</a></li>
+</ul>
+<p><br/></p>
 </dd>
 </dl>
-<h2 id="other-experience">Other Experience</h2>
-<p><strong>Asynchronous programming and asyncio</strong></p>
+<h2 id="programming-projects">Programming Projects</h2>
+<p><strong>Asynchronous programming</strong></p>
 <ul>
-<li><a href="https://github.com/python/asyncio/pull/273" target="_blank">Pull request</a> to add <a href="https://docs.python.org/3/library/asyncio-task.html#asyncio.run_coroutine_threadsafe" target="_blank"><em>run_coroutine_threadsafe</em></a>, merged in <strong>asyncio</strong> and <strong>cpython</strong></li>
 <li>Maintaining two asyncio-based libraries: <a href="https://github.com/vxgmichel/aioconsole" target="_blank"><strong>aioconsole</strong></a> and <a href="https://github.com/vxgmichel/aiostream" target="_blank"><strong>aiostream</strong></a></li>
+<li><a href="https://github.com/python/asyncio/pull/273" target="_blank">Pull request</a> to add <a href="https://docs.python.org/3/library/asyncio-task.html#asyncio.run_coroutine_threadsafe" target="_blank"><em>run_coroutine_threadsafe</em></a>, merged in <strong>cpython</strong></li>
 </ul>
-<p><strong>Competitive programming and mathematics</strong></p>
+<p><strong>Terminal programming</strong></p>
 <ul>
-<li>About 150 problems solved on <a href="https://projecteuler.net" target="_blank"><strong>ProjectEuler.net</strong></a></li>
-<li>Attended 3 <a href="https://code.google.com/codejam/" target="_blank"><strong>Google Code Jams</strong></a></li>
+<li><a href="https://github.com/vxgmichel/gambatte-terminal" target="_blank"><strong>gambaterm</strong></a>, a terminal frontend for the gambatte Game Boy Color emulator</li>
+<li><a href="https://github.com/vxgmichel/famiterm" target="_blank"><strong>famiterm</strong></a>, a simple NES emulator running in the terminal</li>
+</ul>
+<p><strong>Low-level programming</strong></p>
+<ul>
+<li><a href="https://github.com/vxgmichel/arm-linux-from-scratch" target="_blank"><strong>arm-linux-from-scratch</strong></a>, declaring the <strong>ARM Thumb</strong> instruction set in <a href="https://github.com/hlorenzi/customasm" target="_blank">customasm</a></li>
+<li><a href="https://github.com/vxgmichel/eater6502-uart-edition" target="_blank"><strong>eater6502-uart-edition</strong></a>, writing programs for a 6502 computer in assembly</li>
 </ul>
 <hr />
 <blockquote>
-<p><a href="mailto:vxgmichel@gmail.com">vxgmichel@gmail.com</a> • French<br />
+<p><a href="mailto:vxgmichel@gmail.com" class="email">vxgmichel@gmail.com</a> • French<br />
 GitHub: <a href="https://github.com/vxgmichel/" target="_blank">vxgmichel</a> • StackOverflow: <a href="http://stackoverflow.com/users/2846140/vincent" target="_blank">Vincent</a></p>
 </blockquote>
 </body>

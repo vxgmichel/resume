@@ -3,7 +3,7 @@ Vincent Michel
 
 ----
 
->  Software engineer, Python enthusiast and Free Software supporter
+>  Software engineer, Python enthusiast and Free Software maintainer
 
 ----
 
@@ -20,6 +20,7 @@ Education
 
     *Exchange program during 2 quarters*
 
+    <br/>
 
 Professional Experience
 ----------------------
@@ -27,41 +28,58 @@ Professional Experience
 2014 - 2017
 :   **Software engineer at MAX-IV Synchrotron** – Lund (Sweden)
 
-2017 - present
+2017 - 2019
 :   **Software engineer at European Synchrotron Radiation Facility** – Grenoble (France)
 
-    * Control system software for particle accelerators:
+    Control system software for particle accelerators:
 
-        * **Python** libraries for many kinds of hardware
-        * Control system software, based on **Python** and [**Tango**][1]
-        * User interfaces (**PyQt** and command line)
+    * **Python** libraries for many kinds of hardware
+    * User interfaces (**PyQt** and command line)
 
-    * Software production methods:
+    <br/>
+    Software production methods and iterative development:
 
-        * Iterative and incremental development: **Agile/Scrum**
-        * Direct interaction with machine operators and scientists
-        * Unit testing (**nose**, **pytest**) and development of [test utilities][2]
-        * Automated packaging and deployment with **Conda**, **Docker** and **Ansible**
-        * Focus on GNU/Linux based distributions: **CentOS**, **Debian**
+    * Direct interaction with machine operators and scientists
+    * Unit testing (**pytest**) and development of [test utilities][2]
+    * Automated packaging and deployment with **Conda**, **Docker** and **Ansible**
 
-    * Open-source [**Tango**][1] community:
+    <br/>
+    Open-source [**Tango**][1] community:
 
-        * Bug reports and forum support for new comers
-        * Maintaining of the [**PyTango**][3] library (~ 300 downloads/month)
-        * Publishing of [generic tools][4] for the community
+    * Bug reports and forum support for new comers
+    * Maintaining of the [**PyTango**][3] library and other [generic tools][4]
 
-Other Experience
-----------------
+    <br/>
 
-**Asynchronous programming and asyncio**
+2019 - 2025
+:   **Software engineer at SCILLE** – Remote work (France)
 
-  * [Pull request][5] to add [*run_coroutine_threadsafe*][6], merged in **asyncio** and **cpython**
+    Core developer for [**Parsec**][18], a collaborative file-sharing application with end-to-end encryption
+
+    * **Python** backend developement for the parsec server using [**Starlette**][20] and [**FastAPI**][21]
+    * **Rust** development of a certificate-based trust chain, using **cryptographic primitives**
+    * Implementation of a dedicated file system using [**FUSE**][21] and [**WinFSP**][22]
+    * All contributions publicly available in the [project repository][19]
+
+    <br/>
+
+Programming Projects
+--------------------
+
+**Asynchronous programming**
+
   * Maintaining two asyncio-based libraries: [**aioconsole**][7] and [**aiostream**][8]
+  * [Pull request][5] to add [*run_coroutine_threadsafe*][6], merged in **cpython**
 
-**Competitive programming and mathematics**
+**Terminal programming**
 
-  * About 150 problems solved on [**ProjectEuler.net**][9]
-  * Attended 3 [**Google Code Jams**][10]
+  * [**gambaterm**][13], a terminal frontend for the gambatte Game Boy Color emulator
+  * [**famiterm**][14], a simple NES emulator running in the terminal
+
+**Low-level programming**
+
+  * [**arm-linux-from-scratch**][15], declaring the **ARM Thumb** instruction set in [customasm][17]
+  * [**eater6502-uart-edition**][16], writing programs for a 6502 computer in assembly
 
 ----
 
@@ -81,3 +99,14 @@ Other Experience
 [10]: https://code.google.com/codejam/
 [11]: https://github.com/vxgmichel/
 [12]: http://stackoverflow.com/users/2846140/vincent
+[13]: https://github.com/vxgmichel/gambatte-terminal
+[14]: https://github.com/vxgmichel/famiterm
+[15]: https://github.com/vxgmichel/arm-linux-from-scratch
+[16]: https://github.com/vxgmichel/eater6502-uart-edition
+[17]: https://github.com/hlorenzi/customasm
+[18]: https://parsec.cloud/
+[19]: https://github.com/Scille/parsec-cloud
+[20]: https://www.starlette.io/
+[21]: https://fastapi.tiangolo.com/
+[22]: https://www.kernel.org/doc/html/latest/filesystems/fuse.html
+[23]: https://winfsp.dev/
